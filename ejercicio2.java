@@ -17,6 +17,15 @@ public class ejercicio2 {
         System.out.print("Ingrese la columna de la posición final (1-8): ");
         int columnaFinal = scanner.nextInt();
 
+        / Verificar si el movimiento del alfil
+        int diferenciaFilas = Math.abs(filaPartida - filaFinal);
+        int diferenciaColumnas = Math.abs(columnaPartida - columnaFinal);
+
+        if (diferenciaFilas == diferenciaColumnas) {
+            System.out.println("El movimiento del alfil es válido.");
+        } else {
+            System.out.println("El movimiento del alfil no es válido.");
+        }
         
     }
 }

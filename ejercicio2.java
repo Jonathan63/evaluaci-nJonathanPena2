@@ -11,6 +11,12 @@ public class ejercicio2 {
         System.out.print("Ingrese la columna de la posición de partida (1-8): ");
         int columnaPartida = scanner.nextInt();
 
+        System.out.print("Ingrese la fila de la posición final (1-8): ");
+        int filaFinal = scanner.nextInt();
+
+        System.out.print("Ingrese la columna de la posición final (1-8): ");
+        int columnaFinal = scanner.nextInt();
+
         
     }
 }
